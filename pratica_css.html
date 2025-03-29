@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aula CSS - 1</title>
+</head>
+<style>
+	body {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		flex-direction: column;
+		min-height: 125vh;
+	}
+
+	.container {
+		width: 400px;
+		height: 350px;
+		background-color: aliceblue;
+		border-radius: 25px;
+		border: solid 3px rgb(0, 4, 255);
+		margin: 20px
+	}
+
+	.img {
+		width: 100px;
+		height: 100px;
+		margin-left: 40px;
+		padding-bottom: 20px;
+		border-radius: 50%;
+	}
+
+	.img img {
+		width: 100%;
+		height: 100%;
+		margin-top: 20px;
+	}
+
+	.container h1 {
+		margin-left: 40px;
+		font-family: arial;
+		font-size: 30px;
+	}
+
+	.container p {
+		margin-left: 40px;
+		font-family: arial;
+		font-size: 30px;
+	}
+
+	.container span {
+		font-size: 30px;
+		font-family: arial;
+		color: blue;
+	}
+
+	.container span:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+</style>
+
+<body>
+
+	<div class="container">
+
+		<div class="img">
+			<img src="https://cdn-icons-png.flaticon.com/512/706/706830.png" alt="">
+		</div>
+
+		<div class="texto">
+			<h1>
+				Meu nome é: Adriana
+			</h1>
+
+			<p>
+				Mensagem: <span>A vida não é um morango!</span>
+
+
+			</p>
+		</div>
+	</div>
+
+	<div class="container">
+
+		<div class="img">
+			<img style="width: 100%;  height: 100%; margin-top: 20px;"
+				src="https://cdn-icons-png.flaticon.com/256/3681/3681928.png" alt="">
+		</div>
+
+		<div>
+			<h1>
+				Meu nome é: Hugo
+			</h1>
+
+			<p>
+				Mensagem: <span>Um dia é da caça, o outro é do caçador.</span>
+
+			</p>
+		</div>
+	</div>
+
+</body>
+
+</html>
